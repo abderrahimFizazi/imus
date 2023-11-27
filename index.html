@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMUSS - Trouvez des solutions informatiques innovantes pour votre entreprise ici</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="/" class="logo"> <img src="assets/images/logo.png" alt="IMUSS" width="300px" /></a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="/" class="logo"> <img src="assets/images/logo.png" alt="IMUSS" width="200px" /></a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        <ul class="navbar-list">
+          <li>
+            <a href="/" class="navbar-link" data-nav-link>Accueil</a>
+          </li>
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>Qui sommes-nous ?</a>
+          </li>
+          <li>
+            <a href="#services" class="navbar-link" data-nav-link>Solutions</a>
+          </li>
+          <li>
+            <a href="#contactez-nous" class="navbar-link" data-nav-link>Contactez-nous</a>
+          </li>
+        </ul>
+        
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="https://wa.me/212674727274" class="btn-outline">Lets talk</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+      
+          <div class="hero-content">
+      
+            <p class="hero-subtitle has-before">Bienvenue dans notre entreprise,</p>
+      
+            <h1 class="h2 hero-title">Trouvez des solutions informatiques innovantes pour votre entreprise ici.</h1>
+      
+            <p class="hero-text">
+              En tant qu'experts en informatique, nous proposons des services sur mesure pour les TPE/PME : maintenance, sécurité VPN et sauvegarde fiable. Bienvenue chez nous, où l'innovation et la protection de vos données sont notre priorité absolue.
+            </p>
+      
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Découvrir plus</a>
+      
+              <!-- <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </div>
+      
+                <span class="span">En savoir plus</span>
+              </button> -->
+            </div>
+      
+          </div>
+      
+          <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+            <img src="./assets/images/hero-banner.png" width="650" height="650" alt="hero banner" class="img-cover">
+          </figure>
+      
+        </div>
+      </section>
+      
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="802" height="654" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+            <h2 class="h2-sm section-title">Nous créons des solutions, concevons pour le succès de votre entreprise.</h2>
+      
+            <p class="section-text">
+              Nous nous engageons à façonner l'avenir technologique en offrant des solutions innovantes et des services de pointe répondant à vos besoins. Notre dévouement à l'excellence et à la fiabilité définit notre chemin vers le succès conjoint avec nos clients.
+            </p>
+      
+            <ul class="about-list">
+              <li class="has-before">
+                Prix des matériaux ou pièces supplémentaires (si nécessaire)
+              </li>
+              <li class="has-before">
+                Frais de transport pour le transport de nouveaux matériaux/pièces
+              </li>
+              <li class="has-before">
+                Offre de remboursement à 100% garantie.
+              </li>
+            </ul>
+      
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">En savoir plus</a>
+      
+              <button class="flex-btn">
+                <div class="btn-icon">
+                  <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+                </div>
+      
+                <span class="span">Plus de 10 ans d'expérience</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+      <section class="section service" id="services" aria-label="service">
+        <div class="container">
+      
+          <p class="section-subtitle text-center">- Nos Services -</p>
+      
+          <h2 class="h2 section-title text-center">Découvrez nos offres</h2>
+      
+          <p class="section-text text-center">
+            Maximisez vos opportunités avec nos services adaptés à vos besoins.
+          </p>
+      
+          <ul class="grid-list">
+      
+ 
+            <!-- Service 2 -->
+            <li>
+              <div class="service-card has-after">
+                <figure class="card-icon">
+                  <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="Développement d'Applications" class="img">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Développement d'Applications</h3>
+                  <p class="card-text">
+                    Création d'applications performantes et intuitives pour répondre à vos besoins.
+                  </p>
+                  <a href="#" class="btn-link">
+                    <span class="span">En savoir plus</span>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+      
+            <!-- Service 3 -->
+            <li>
+              <div class="service-card has-after">
+                <figure class="card-icon">
+                  <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy" alt="Sécurité Informatique" class="img">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Sécurité Informatique</h3>
+                  <p class="card-text">
+                    Protégez votre entreprise avec nos solutions de sécurité informatique avancées.
+                  </p>
+                  <a href="#" class="btn-link">
+                    <span class="span">En savoir plus</span>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+      
+            <!-- Service 4 -->
+            <li>
+              <div class="service-card has-after">
+                <figure class="card-icon">
+                  <img src="./assets/images/service-4.png" width="140" height="140" loading="lazy" alt="Support Technique 24/7" class="img">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3 card-title">Support Technique 24/7</h3>
+                  <p class="card-text">
+                    Accédez à un support technique dédié pour résoudre vos problèmes à tout moment.
+                  </p>
+                  <a href="#" class="btn-link">
+                    <span class="span">En savoir plus</span>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+                 <!-- Service 1 -->
+                 <li>
+                  <div class="service-card has-after">
+                    <figure class="card-icon">
+                      <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy" alt="Conception créative UI/UX" class="img">
+                    </figure>
+                    <div class="card-content">
+                      <h3 class="h3 card-title">Conception créative UI/UX</h3>
+                      <p class="card-text">
+                        Des designs innovants pour une expérience utilisateur exceptionnelle.
+                      </p>
+                      <a href="#" class="btn-link">
+                        <span class="span">En savoir plus</span>
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+          
+            <!-- Autres services -->
+      
+          </ul>
+      
+          <a href="#" class="btn btn-primary">Commencer</a>
+      
+        </div>
+      </section>
+      
+      
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+      <section class="section features" id="features" aria-label="features">
+        <div class="container">
+      
+          <p class="section-subtitle text-center">- Pourquoi Nous Choisir -</p>
+      
+          <h2 class="h2 section-title text-center">Raisons de Nous Choisir</h2>
+      
+          <p class="section-text text-center">
+            Profitez d'une réduction maximale des coûts opérationnels de votre équipe pour un produit complet qui crée des expériences UI/UX exceptionnelles.
+          </p>
+      
+          <ul class="grid-list">
+            <li>
+              <div class="features-card">
+                <data class="card-number" value="02">01</data>
+
+                <h3 class="h3 card-title">Design personnalisé</h3>
+                <p class="card-text">
+                  Des conceptions sur mesure qui répondent à vos besoins spécifiques.
+                </p>
+              </div>
+            </li>
+            
+      
+            <li>
+              <div class="features-card">
+      
+                <data class="card-number" value="02">02</data>
+      
+                <h3 class="h3 card-title">Support gratuit pendant 6 mois</h3>
+      
+                <p class="card-text">
+                  Bénéficiez d'un support dédié sans frais supplémentaires pendant les six premiers mois.
+                </p>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="features-card">
+      
+                <data class="card-number" value="03">03</data>
+      
+                <h3 class="h3 card-title">Stratégie client</h3>
+      
+                <p class="card-text">
+                  Adoptez une stratégie axée sur le client pour garantir la satisfaction.
+                </p>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="features-card">
+      
+                <data class="card-number" value="04">04</data>
+      
+                <h3 class="h3 card-title">Meilleures images premium</h3>
+      
+                <p class="card-text">
+                  Utilisez des images de haute qualité pour une présentation visuelle optimale.
+                </p>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="features-card">
+      
+                <data class="card-number" value="05">05</data>
+      
+                <h3 class="h3 card-title">Fonctionnalités les plus avancées</h3>
+      
+                <p class="card-text">
+                  Profitez des fonctionnalités les plus avancées pour rester en tête.
+                </p>
+      
+              </div>
+            </li>
+      
+            <li>
+              <div class="features-card">
+      
+                <data class="card-number" value="06">06</data>
+      
+                <h3 class="h3 card-title">Prix très raisonnables</h3>
+      
+                <p class="card-text">
+                  Accédez à nos services à des tarifs compétitifs et abordables.
+                </p>
+      
+              </div>
+            </li>
+      
+          </ul>
+      
+        </div>
+      </section>
+      
+
+
+
+
+
+    </article>
+  </main>
+  <div class="container" id="contactez-nous">
+    <h2 class="h2 section-title text-center">Get in Touch</h2>
+    <p class="section-subtitle text-center">Reach out for more information</p>
+  <form>
+
+    <label for="email" class="labelEmail">Entrez votre Email</label>
+    <input type="email" name="email" class="emailInp" required maxlength="50" placeholder="Entrez votre mail">
+
+    <div class="flex2Inputs">
+
+        <div class="flexLeftInp">
+            <label for="prenom" class="labelFlex">Entrez votre prénom</label>
+            <input type="text" name="prenom" id="prenom" required maxlength="35" class="flexInp" placeholder="Entrez votre prénom">
+        </div>
+
+        <div class="flexRightInp">
+            <label for="nom" class="labelFlex">Entrez votre nom</label>
+            <input type="text" name="nom" id="nom" required maxlength="35" class="flexInp" placeholder="Entrez votre nom">
+        </div>
+    </div>
+
+
+
+    <label for="txtArea" class="labelTxt">Dis nous quelque chose ...</label>
+    <textarea name="txt" id="txtArea" cols="50" rows="10"></textarea>
+
+    <button class="send">Envoyer</button>
+</form>
+
+</div>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">IMUSS</a>
+
+          <p class="footer-text">
+            Votre partenaire pour des solutions numériques.
+                    </p>
+
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li><a href="#" class="footer-link">Services</a></li>
+          <li><a href="#" class="footer-link">À propos</a></li>
+          <li><a href="#" class="footer-link">Contact</a></li>
+        </ul>
+
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contactez nous</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+            <address class="contact-link address">
+              Tanger, Mesnana
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+212674727274" class="contact-link">+212674727274</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:conatct@imussarl.com" class="contact-link">conatct@imusssarl.com</a>
+          </li>
+
+          <li class="footer-item">
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">&copy; 2022 IMUSS | Tous droits réservés</p>
+
+        <ul class="footer-bottom-list">
+          <li><a href="#" class="footer-bottom-link">Politique de confidentialité</a></li>
+          <li><a href="#" class="footer-bottom-link">Conditions d'utilisation</a></li>
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
